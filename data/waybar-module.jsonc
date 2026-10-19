@@ -3,7 +3,7 @@
 "custom/ddc": {
     "exec": "ddc-controls waybar",          // add "-d DP-3" for one monitor
     "return-type": "json",
-    "format": "{icon} {}",
+    "format": "{icon} {text}",   // not "{}": newer waybar rejects mixing {} with {icon}
     "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],   // picked by brightness percentage
     "tooltip": true,
     "on-scroll-up": "ddc-controls up",

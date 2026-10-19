@@ -104,7 +104,7 @@ The stock `backlight` module only sees `/sys/class/backlight`. Run
 "custom/ddc": {
     "exec": "ddc-controls waybar",          // or: ddc-controls waybar -d DP-3
     "return-type": "json",
-    "format": "{icon} {}",
+    "format": "{icon} {text}",
     "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],
     "on-scroll-up": "ddc-controls up",
     "on-scroll-down": "ddc-controls down",
