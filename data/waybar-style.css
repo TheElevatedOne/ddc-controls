@@ -1,0 +1,10 @@
+/* Merge into ~/.config/waybar/style.css */
+#custom-ddc {
+    padding: 0 8px;
+}
+#custom-ddc.locked {
+    border-bottom: 2px solid @theme_selected_bg_color;
+}
+#custom-ddc.unavailable {
+    opacity: 0.5;
+}

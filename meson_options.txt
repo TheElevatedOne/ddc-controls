@@ -1,0 +1,2 @@
+option('static_libddcci', type : 'boolean', value : false,
+  description : 'Link libddcci statically (libddcci.a), so the binary does not need libddcci installed')

@@ -1,0 +1,15 @@
+// Add "custom/ddc" to modules-left/center/right and merge this block into
+// ~/.config/waybar/config.jsonc.
+"custom/ddc": {
+    "exec": "ddc-controls waybar",          // add "-d DP-3" for one monitor
+    "return-type": "json",
+    "format": "{icon} {}",
+    "format-icons": ["󰃞", "󰃟", "󰃝", "󰃠"],   // picked by brightness percentage
+    "tooltip": true,
+    "on-scroll-up": "ddc-controls up",
+    "on-scroll-down": "ddc-controls down",
+    "on-click": "ddc-controls gui",
+    "on-click-middle": "ddc-controls lock toggle",
+    "on-click-right": "ddc-controls set brightness 50%",
+    "smooth-scrolling-threshold": 1
+}

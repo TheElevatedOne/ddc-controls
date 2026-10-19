@@ -1,0 +1,6 @@
+/build*/
+/subprojects/packagecache/
+*.o
+*.so
+.cache/
+compile_commands.json

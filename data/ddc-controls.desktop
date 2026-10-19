@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=DDC Controls
+GenericName=Monitor Controls
+Comment=Adjust monitor brightness and contrast over DDC/CI
+Exec=ddc-controls gui
+Icon=video-display
+Terminal=false
+Categories=Settings;HardwareSettings;GTK;
+Keywords=brightness;contrast;monitor;display;ddc;backlight;
