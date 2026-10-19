@@ -4,3 +4,9 @@
 *.so
 .cache/
 compile_commands.json
+
+# makepkg output in aur/*
+/aur/*/src/
+/aur/*/pkg/
+/aur/*/*.pkg.tar.*
+/aur/*/*.tar.gz
