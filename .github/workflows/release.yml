@@ -2,7 +2,8 @@ name: Build and release
 
 # Manual only: Actions -> "Build and release" -> Run workflow.
 # Builds the version declared in meson.build and publishes it as release
-# v<version>. Re-running for the same version replaces the release assets.
+# <version> (no "v" prefix). Re-running for the same version replaces the
+# release assets.
 on:
   workflow_dispatch:
     inputs:
@@ -102,7 +103,7 @@ jobs:
           VERSION: ${{ needs.build.outputs.version }}
           PRERELEASE: ${{ inputs.prerelease }}
         run: |
-          tag="v$VERSION"
+          tag="$VERSION"
           if gh release view "$tag" > /dev/null 2>&1; then
             echo "Release $tag exists, replacing its assets"
             gh release upload "$tag" dist/* --clobber

@@ -165,9 +165,9 @@ usable while the rescan runs.
 
 Bump `version` in `meson.build`, then run the **Build and release** workflow
 (Actions tab → *Run workflow*). It builds on Ubuntu 24.04 with libddcci linked
-statically and publishes release `v<version>` with the binary tarball, the
-source tarball and `SHA256SUMS`. Running it again for the same version
-replaces the assets.
+statically and publishes release `<version>` (tag without a `v` prefix) with
+the binary tarball, the source tarball and `SHA256SUMS`. Running it again for
+the same version replaces the assets.
 
 ## License
 
