@@ -1,6 +1,6 @@
 # ddc-controls
 
-![Static Badge](https://img.shields.io/badge/CLAUDE-VIBECODED?style=for-the-badge&logo=claude&label=VIBECODED&labelColor=%23333333&color=%23de7356) [![AUR Version](https://img.shields.io/aur/version/ddc-controls-git?style=for-the-badge&logo=archlinux)](https://aur.archlinux.org/packages/ddc-controls-git) [![AUR Version](https://img.shields.io/aur/version/ddc-controls-bin?style=for-the-badge&logo=archlinux)](https://aur.archlinux.org/packages/ddc-controls-bin)
+![Static Badge](https://img.shields.io/badge/CLAUDE-VIBECODED?style=for-the-badge&logo=claude&label=VIBECODED&labelColor=%23333333&color=%23de7356) [![AUR Version](https://img.shields.io/aur/version/ddc-controls-git?style=for-the-badge&logo=archlinux&label=ddc-controls-git)](https://aur.archlinux.org/packages/ddc-controls-git) [![AUR Version](https://img.shields.io/aur/version/ddc-controls-bin?style=for-the-badge&logo=archlinux&label=ddc-controls-bin)](https://aur.archlinux.org/packages/ddc-controls-bin)
 
 A GTK3 (gtkmm) monitor control panel in the spirit of
 [vdu_controls](https://github.com/digitaltrails/vdu_controls). It talks DDC/CI
